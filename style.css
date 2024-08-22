@@ -1,0 +1,110 @@
+.wraper {
+  max-width: 1520px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.change__lng {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.change__lng-rus {
+  padding-right: 4px;
+  vertical-align: middle;
+}
+
+.change__lng-hicon {
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.change__lng-link {
+  text-decoration: none;
+}
+
+.phone {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  width: 164px;
+  height: 24px;
+  margin-top: -0.7em;
+}
+
+.header__img {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header__main a{
+  display: flex;
+  position: absolute;
+  top: 80px;
+  color: white;
+  text-decoration: none;
+}
+
+.header__main h1{
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-right: 64px;
+}
+
+.header__main h2{
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 58px;
+}
+
+* {box-sizing: border-box; }
+form {
+  position: relative;
+  width: 409px;
+  margin: 0 auto;
+  
+}
+
+.header__search input {
+  width: 100%;
+  height: 51px;
+  padding-left: 52px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  outline: none;
+  background: #ffffff;
+  color: ;
+  font-size: 20px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  
+}
+
+.header__search img{
+  position: absolute;
+  margin: 13px 21px ;
+}
+
+.header__search button {
+  position: absolute; 
+  top: 0;
+  margin-left: 8px;
+  width: 98px;
+  height: 51px;
+  border: none;
+  background: #2196F3;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  gap: 8px;
+  color: white;
+}
